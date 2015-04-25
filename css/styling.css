@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-family: 'DIN Web', sans-serif;
+    font-size: 48px;
+    padding: 20px;
+    text-shadow: 0 0 10px #ffffff;
+}
+.parallaz-wrap{
+    perspective: 100px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallaxing{
+position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+.parallaxing .one{
+
+}
+.parallaxing .two{
+    z-index: 10;
+}
+.parallaxing .three{
+
+}
